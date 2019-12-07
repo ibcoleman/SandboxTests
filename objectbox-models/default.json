@@ -1,0 +1,492 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7490198355692172409",
+      "lastPropertyId": "39:7450440895651105406",
+      "name": "Shipment",
+      "properties": [
+        {
+          "id": "1:8181960057818461809",
+          "name": "uid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6202017144511402142",
+          "name": "shipmentURI",
+          "type": 9
+        },
+        {
+          "id": "3:3723070377926527238",
+          "name": "shipmentId",
+          "indexId": "1:6185381559471332668",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:2826772649692754357",
+          "name": "containerId",
+          "type": 9
+        },
+        {
+          "id": "5:5611828028402189917",
+          "name": "leadShipmentId",
+          "type": 9
+        },
+        {
+          "id": "6:5040403045367269337",
+          "name": "consignor",
+          "type": 9
+        },
+        {
+          "id": "7:6557824994570910373",
+          "name": "consignorDate",
+          "type": 9
+        },
+        {
+          "id": "8:139772955855854348",
+          "name": "consignee",
+          "type": 9
+        },
+        {
+          "id": "9:6466266130183616006",
+          "name": "consigneeDate",
+          "type": 9
+        },
+        {
+          "id": "10:1361547538426147461",
+          "name": "hasDeparted",
+          "type": 1,
+          "flags": 2
+        },
+        {
+          "id": "11:2956091855264265362",
+          "name": "hasArrived",
+          "type": 1,
+          "flags": 2
+        },
+        {
+          "id": "12:1443708867821070435",
+          "name": "requiredDepartureDate",
+          "type": 9
+        },
+        {
+          "id": "13:3597267636503166167",
+          "name": "requiredDeliveryDate",
+          "type": 9
+        },
+        {
+          "id": "14:5745687888408022839",
+          "name": "rfidTagId",
+          "type": 9
+        },
+        {
+          "id": "15:7747157102267817547",
+          "name": "sensorId",
+          "indexId": "2:8173241678943355224",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "16:4836121405160719942",
+          "name": "latitude",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "17:7579743143827947909",
+          "name": "longitude",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "18:2435933675063931321",
+          "name": "locationLastUpdated",
+          "type": 9
+        },
+        {
+          "id": "19:1294163596656418008",
+          "name": "weight",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "20:2464969418064197570",
+          "name": "volume",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "21:6219803151663922447",
+          "name": "commodityCode",
+          "type": 9
+        },
+        {
+          "id": "22:7839492063344201634",
+          "name": "commodityDescription",
+          "type": 9
+        },
+        {
+          "id": "23:847608964662889645",
+          "name": "pointOfEmbarkation",
+          "type": 9
+        },
+        {
+          "id": "24:3100205689748615946",
+          "name": "pointOfDebarkation",
+          "type": 9
+        },
+        {
+          "id": "25:7249423756358064418",
+          "name": "organization",
+          "type": 9
+        },
+        {
+          "id": "26:6068840518948993610",
+          "name": "lastModified",
+          "type": 10
+        },
+        {
+          "id": "27:4482110274762708396",
+          "name": "created",
+          "type": 10
+        },
+        {
+          "id": "28:3499278392100627216",
+          "name": "dataSource",
+          "type": 9
+        },
+        {
+          "id": "29:8500692938789723233",
+          "name": "requestNumber",
+          "type": 9
+        },
+        {
+          "id": "30:7320072377935156370",
+          "name": "tmrNumber",
+          "type": 9
+        },
+        {
+          "id": "31:3652903311909987373",
+          "name": "orderNumber",
+          "type": 9
+        },
+        {
+          "id": "32:6314926985068206875",
+          "name": "lastShipmentState",
+          "type": 9
+        },
+        {
+          "id": "33:1604834725496428665",
+          "name": "shipmentRisk",
+          "type": 9
+        },
+        {
+          "id": "34:2946698528758497844",
+          "name": "maxTemperature",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "35:2077836873663098670",
+          "name": "minTemperature",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "36:7436092823229654743",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "37:1462128387416310392",
+          "name": "poc",
+          "type": 9
+        },
+        {
+          "id": "38:3346976926158417449",
+          "name": "totalPieces",
+          "type": 9
+        },
+        {
+          "id": "39:7450440895651105406",
+          "name": "isNew",
+          "type": 1,
+          "flags": 2
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:993127389703219775",
+      "lastPropertyId": "19:6091162280845555760",
+      "name": "ShipmentItem",
+      "properties": [
+        {
+          "id": "1:2487631167364824555",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1024790871073455372",
+          "name": "orderNumber",
+          "type": 9
+        },
+        {
+          "id": "3:9008940204776756046",
+          "name": "quantity",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "4:1711106854874743268",
+          "name": "quantityDelivered",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "5:5123677605832136380",
+          "name": "weight",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "6:3431543940087257160",
+          "name": "volume",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "7:6121727037909110008",
+          "name": "partNumber",
+          "type": 9
+        },
+        {
+          "id": "8:6822650647289906964",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "9:7506471027588961636",
+          "name": "shipmentItemURI",
+          "type": 9
+        },
+        {
+          "id": "10:8400813701416217286",
+          "name": "shipmentId",
+          "type": 9
+        },
+        {
+          "id": "11:2824563368424490055",
+          "name": "lastModified",
+          "type": 9
+        },
+        {
+          "id": "12:3324000320747504393",
+          "name": "created",
+          "type": 9
+        },
+        {
+          "id": "13:2497636641614917550",
+          "name": "dataSource",
+          "type": 9
+        },
+        {
+          "id": "14:6595498037007114388",
+          "name": "classOfSupply",
+          "type": 9
+        },
+        {
+          "id": "15:3270011700294901209",
+          "name": "unitPrice",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "16:762384527315738326",
+          "name": "pendingQuantity",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "17:4780044135698676746",
+          "name": "unitOfIssue",
+          "type": 9
+        },
+        {
+          "id": "18:1914089295142009701",
+          "name": "conditionCode",
+          "type": 9
+        },
+        {
+          "id": "19:6091162280845555760",
+          "name": "uid",
+          "indexId": "3:8842503992556426018",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Shipment"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2498652863554704546",
+      "lastPropertyId": "17:1055515002549725920",
+      "name": "ShipmentLocation",
+      "properties": [
+        {
+          "id": "1:4268209295576253196",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3864831383459962360",
+          "name": "latitude",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "3:1584487336019968044",
+          "name": "longitude",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "4:6017668655498231579",
+          "name": "locationURI",
+          "type": 9
+        },
+        {
+          "id": "5:909632830181486098",
+          "name": "created",
+          "type": 9
+        },
+        {
+          "id": "6:6870809866018340596",
+          "name": "lastModified",
+          "type": 9
+        },
+        {
+          "id": "7:2414988635018873309",
+          "name": "gridLocation",
+          "type": 9
+        },
+        {
+          "id": "8:8080078588133980226",
+          "name": "locationCode",
+          "type": 9
+        },
+        {
+          "id": "9:217407741506922612",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "10:7978829662866849950",
+          "name": "city",
+          "type": 9
+        },
+        {
+          "id": "11:3828966611484242347",
+          "name": "state",
+          "type": 9
+        },
+        {
+          "id": "12:6973021542988932734",
+          "name": "country",
+          "type": 9
+        },
+        {
+          "id": "13:2690893328559746232",
+          "name": "dataSource",
+          "type": 9
+        },
+        {
+          "id": "14:2859219578779160154",
+          "name": "locationShard",
+          "type": 5,
+          "flags": 2
+        },
+        {
+          "id": "15:7097050783398788874",
+          "name": "confidence",
+          "type": 8,
+          "flags": 2
+        },
+        {
+          "id": "16:4506971790074463636",
+          "name": "keyLocation",
+          "type": 1,
+          "flags": 2
+        },
+        {
+          "id": "17:1055515002549725920",
+          "name": "shipmentId",
+          "indexId": "4:9454723516248585",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Shipment"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:2238797825413657868",
+      "lastPropertyId": "6:7961983796353014947",
+      "name": "ShipmentNote",
+      "properties": [
+        {
+          "id": "1:4046539483231633759",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4373437313304371396",
+          "name": "postingUser",
+          "type": 9
+        },
+        {
+          "id": "3:1307430116894737100",
+          "name": "note",
+          "type": 9
+        },
+        {
+          "id": "4:4282269460971270374",
+          "name": "noteURI",
+          "type": 9
+        },
+        {
+          "id": "5:1082179668903101947",
+          "name": "created",
+          "type": 9
+        },
+        {
+          "id": "6:7961983796353014947",
+          "name": "shipmentId",
+          "indexId": "5:7639741682155824381",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Shipment"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:2238797825413657868",
+  "lastIndexId": "5:7639741682155824381",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
